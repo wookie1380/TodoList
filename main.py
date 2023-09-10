@@ -13,7 +13,7 @@ def add_task(list):
 # Function to remove a task from the list
 def remove_task(list):
     if lists:
-        choice = int(list) - 1
+        choice = int(list) - 1      # Used to match the choice with index (starts at 0)
         print("\nYour item to delete is index \n", choice)
         del lists[choice]
         print("\nTask removed\n", )
